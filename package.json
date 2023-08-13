@@ -1,0 +1,29 @@
+{
+  "name": "vue-vite-vercel-example",
+  "version": "0.0.1",
+  "author": "sj hayman",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext js,vue .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.1",
+    "vite": "^4.1.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
